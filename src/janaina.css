@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AR:wght@100..400&display=swap');
+
+/* janaina.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita rolagem desnecessária */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #206305; /* Fundo verde claro */
+    font-family: 'Times New Roman', serif; /* Fonte padrão para o corpo do texto */
+}
+
+.containerDiv {
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 1200px; /* Limita a largura máxima */
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgb(214, 238, 207); /* Define a cor de fundo do contêiner */
+    border-radius: 8px; /* Arredonda os cantos do contêiner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+
+.header, .text, h2 {
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(20px); /* Inicialmente deslocado para baixo */
+    animation: fadeInUp 1s forwards; /* Animação */
+}
+
+/* Efeito de animação */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header {
+    font-family: "Playwrite AR", cursive; /* Fonte cursiva para h1 */
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+}
+
+h2 {
+    font-family: "Playwrite AR", cursive; /* Fonte cursiva para h2 */
+    color: #666;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(20px); /* Inicialmente deslocado para baixo */
+    animation: fadeInUp 1s forwards;
+}
+
+/* Animação individual para cada parágrafo */
+p:nth-of-type(1) {
+    animation-delay: 0.5s; /* Atraso de 0.5 segundos */
+}
+
+p:nth-of-type(2) {
+    animation-delay: 20s; /* Atraso de 1 segundo */
+}
+
+p:nth-of-type(3) {
+    animation-delay: 30s; /* Atraso de 1.5 segundos */
+}
+
+p:nth-of-type(4) {
+    animation-delay: 40s; /* Atraso de 2 segundos */
+}
+
+p:nth-of-type(5) {
+    animation-delay: 50s; /* Atraso de 2.5 segundos */
+}
+
+p:nth-of-type(6) {
+    animation-delay: 60s; /* Atraso de 3 segundos */
+}
+
+p:nth-of-type(7) {
+    animation-delay: 70s; /* Atraso de 3.5 segundos */
+}
+
+p:nth-of-type(8) {
+    animation-delay: 80s; /* Atraso de 4 segundos */
+}
