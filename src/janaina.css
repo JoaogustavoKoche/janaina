@@ -55,6 +55,12 @@ body {
     color: #555;
 }
 
+.cursive {
+    font-family: "Playwrite AR", cursive; /* Fonte cursiva para h2 */
+    color: #222020;
+    margin-top: 15px;
+}
+
 h2 {
     font-family: "Playwrite AR", cursive; /* Fonte cursiva para h2 */
     color: #222020;
@@ -106,3 +112,14 @@ p:nth-of-type(7) {
 p:nth-of-type(8) {
     animation-delay: 80s; /* Atraso de 4 segundos */
 }
+
+p:nth-of-type(9) {
+    animation-delay: 80s; /* Atraso de 4 segundos */
+}
+
+p:nth-of-type(10) {
+    animation-delay: 90s; /* Atraso de 4 segundos */
+}
+
+
+
