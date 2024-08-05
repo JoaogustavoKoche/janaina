@@ -2,10 +2,7 @@
 
 /* janaina.css */
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Evita rolagem desnecessária */
+    
 }
 
 body {
@@ -18,7 +15,7 @@ body {
 }
 
 .containerDiv {
-    width: 100%; /* Ajuste conforme necessário */
+    width: 90%;
     max-width: 1200px; /* Limita a largura máxima */
     padding: 20px;
     box-sizing: border-box;
@@ -26,20 +23,8 @@ body {
     border-radius: 8px; /* Arredonda os cantos do contêiner */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
     text-align: center; /* Centraliza o texto dentro do contêiner */
-}
-
-.header, .text, h2 {
-    opacity: 0; /* Inicialmente invisível */
-    transform: translateY(20px); /* Inicialmente deslocado para baixo */
-    animation: fadeInUp 1s forwards; /* Animação */
-}
-
-/* Efeito de animação */
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    margin: 20px; /* Adiciona uma margem ao redor do contêiner */
+    overflow-y: auto; /* Permite rolagem vertical */
 }
 
 .header {
@@ -47,6 +32,7 @@ body {
     font-size: 2.5em;
     color: #333;
     margin-bottom: 20px;
+    animation: fadeInUp 1s forwards;
 }
 
 .text {
@@ -65,12 +51,7 @@ h2 {
     font-family: "Playwrite AR", cursive; /* Fonte cursiva para h2 */
     color: #222020;
     margin-top: 30px;
-}
-
-h3 {
-    font-family: "Playwrite AR", cursive; /* Fonte cursiva para h2 */
-    color: #252323;
-    margin-top: 30px;
+    animation: fadeInUp 1s forwards 6s; /* Atraso de 6 segundos */
 }
 
 p {
@@ -78,6 +59,14 @@ p {
     opacity: 0; /* Inicialmente invisível */
     transform: translateY(20px); /* Inicialmente deslocado para baixo */
     animation: fadeInUp 1s forwards;
+}
+
+/* Efeito de animação */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Animação individual para cada parágrafo */
@@ -122,4 +111,57 @@ p:nth-of-type(10) {
 }
 
 
+/* Media Queries para responsividade */
+@media (max-width: 1024px) {
+    .containerDiv {
+        padding: 15px;
+    }
 
+    .header {
+        font-size: 2em;
+    }
+
+    .text {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerDiv {
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 1.8em;
+    }
+
+    .text {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .containerDiv {
+        padding: 5px;
+    }
+
+    .header {
+        font-size: 1.5em;
+    }
+
+    .text {
+        font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
