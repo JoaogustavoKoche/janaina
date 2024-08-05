@@ -39,7 +39,9 @@ export const Janaina = () => {
         <p>
           Voce e a mulher em que quero casar, ter filhos, construir uma familia , e envelhecer junto quero passar cada segundo que me resta com voce e so com voce. 
         </p>
+        
       </div>
+      <h3>Voce sempre vai ser meu Tomoi</h3>
       <h2>
           Joao G. 
       </h2>

@@ -57,7 +57,13 @@ body {
 
 h2 {
     font-family: "Playwrite AR", cursive; /* Fonte cursiva para h2 */
-    color: #666;
+    color: #222020;
+    margin-top: 30px;
+}
+
+h3 {
+    font-family: "Playwrite AR", cursive; /* Fonte cursiva para h2 */
+    color: #252323;
     margin-top: 30px;
 }
 
