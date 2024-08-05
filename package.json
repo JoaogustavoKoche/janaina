@@ -1,7 +1,7 @@
 {
   "name": "janaina",
   "version": "0.1.0",
-  "homepage": "https://{JoaogustavoKoche}.github.io/{janaina}",
+  "homepage": "https://JoaogustavoKoche.github.io/janaina",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
