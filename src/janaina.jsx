@@ -11,7 +11,7 @@ export const Janaina = () => {
           sei que tivemos momentos ruins mais tambem tivemos varios momentos felizes, 
           lembro muito bem de quando fui posar ai e ficamos assistindo supernatural e comendo junto com a mel e voce fez panquecas para mim, 
           foi a primeira vez que comi e foi tao bom, lembro das noites que fizemos X, das noites que fizemos pizzas e muitas outras coisas que fizemos juntos, 
-          como quando fomos ver homem aranha no cinema e principalmente das tardes em que passavamos atras no cemma.
+          como quando fomos ver homem aranha no cinema e principalmente das tardes em que passavamos atras no cemma e nao posso esquecer de quando pegamos aquela chuvarada.
         </p>
         <p> 
           Olhando para traz eu vejo o quao irresponsavel eu fui, e o quao distante eu fui e me arrependo amargamente de todas as vezes em que nao lhe tratei como deveria, 
